@@ -1,2 +1,2 @@
-print("Content-Type: text/html\n")
-print("Hello World\n\n")
+print("Hello "+REQUEST_HANDLER.client_address[0])
+print(" through port "+str(REQUEST_HANDLER.client_address[1]))
